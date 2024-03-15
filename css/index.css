@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+#kanto {
+    background-image: url(../img/kanto-map.jpeg);
+}
+        
+* {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#ini {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.les {
+    display: block;
+    width: 33%;
+    text-align: center;
+}
+
+.ciales{
+    width: 100%;
+    height: 300px;
+}
+
+#a ,#f ,#p {
+    width: 50%;
+}
+
+#llama {
+    background-color: white;
+    color: rgb(226, 11, 11);
+    font-size: 30px;
+}
+
+#gota {
+    background-color: white;
+    color: rgb(0, 47, 255) ;
+    font-size: 30px;
+}
+
+#hoja {
+    background-color: white;
+    color: rgb(15, 112, 5);
+    font-size: 30px;
+}
+
+
+#a{
+    background-color: aqua ;
+}
+
+#f{
+    background-color: orangered ;
+}
+
+#p{
+    background-color: greenyellow;
+}
+#pok {
+    background-color: rgb(75, 52, 52);
+}
+
+#sec1 {
+    width: 100%;
+    display: flex;
+}
+
+#art1{
+    width: 25%;
+}
+
+#art2 {
+    width: 75%;
+}
+
+.art3 {
+    display: block;
+}
+
+.fuego {
+    color: white;
+    background-color: orange;
+    width: 7%;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.text {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.fon {
+background-image: url(../img/fondo.jpg);
+}
+
+.deb {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.water {
+    font-size: 25px;
+    background-color: rgb(11, 133, 189);
+    margin-left: 30px;
+    width: 7%;
+}
+
+.tierra {
+    font-size: 25px;
+    background-color: beige;
+    margin-left: 30px;
+    width: 7%;
+}
+
+.rock {
+    font-size: 25px;
+    background-color: burlywood;
+    margin-left: 30px;
+    width: 7%;
+}
+
+.debi {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.evo {
+    text-align: center;
+}
+
+.luciones {
+    width: 33%;
+    background-color: gray;
+    border-radius: 20%;
+}
+
+.medio {
+    text-align: center;
+}
+
+.volver {
+    text-align: center;
+}
+
+.vol {
+    font-size: 25px;
+    color: red;
+}
+
+.wing {
+    background-color: rgb(147, 228, 208);
+    width: 9%;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.zap {
+    font-size: 25px;
+    background-color: rgb(233, 222, 17);
+    margin-left: 30px;
+    width: 10%;
+}
+
+.plant {
+    font-size: 25px;
+    background-color: rgb(115, 242, 86);
+    margin-left: 30px;
+    width: 8%;
+}
+
+.fight {
+    font-size: 25px;
+    background-color: rgb(217, 106, 46);
+    margin-left: 30px;
+    width: 8%;
+}
+
+.sine {
+    font-size: 25px;
+    background-color: rgb(37, 36, 43);
+    margin-left: 30px;
+    width: 11%;
+    color: white;
+}
+
+.bicho {
+    font-size: 25px;
+    background-color: rgb(40, 91, 29);
+    margin-left: 30px;
+    width: 8%;
+    color: white;
+}
+
+.hada {
+    font-size: 25px;
+    background-color: rgb(224, 118, 222);
+    margin-left: 30px;
+    width: 8%;
+}
+
+.type {
+    display: flex;
+}
+
+.venom {
+    background-color: rgb(207, 115, 232);
+    width: 9%;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.cold {
+    font-size: 25px;
+    background-color: rgb(68, 216, 216);
+    margin-left: 30px;
+    width: 8%;
+}
+
+@media screen and (max-width:1200px ){
+
+    .cold, .venom, .hada, .bicho, .sine, .fight, .plant , .zap ,.wing , .water, .tierra , .rock , .fuego {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width:800px ){
+
+    .cold, .venom, .hada, .bicho, .sine, .fight, .plant , .zap ,.wing , .water, .tierra , .rock , .fuego {
+        width: 30%;
+    }
+
+    .debi {
+        width: 100%;
+        display: block;
+    }
+
+    #art1{
+        width: 50%;
+    }
+    
+    #art2 {
+        width: 50%;
+    }
+
+    #llama {
+        font-size: 25px;
+    }
+    
+    #gota {
+        font-size: 25px;
+    }
+    
+    #hoja {
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (max-width:600px ){
+
+    .cold, .venom, .hada, .bicho, .fight, .plant , .zap , .sine, .wing, .water, .tierra , .rock , .fuego {
+        width: 50%;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    #art1{
+        width: 50%;
+    }
+    
+    #art2 {
+        width: 50%;
+    }
+
+    #llama {
+        font-size: 15px;
+    }
+    
+    #gota {
+        font-size: 15px;
+    }
+    
+    #hoja {
+        font-size: 15px;
+    }
+}
