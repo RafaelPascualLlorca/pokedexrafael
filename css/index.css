@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* Esto es para importar la fuente rubik*/
 
 #kanto {
     background-image: url(../img/kanto-map.jpeg);
 }
+/* Esto es para que en el indice aparezca la imagen de fondo de kanto */
         
 * {
     font-family: "Rubik", sans-serif;
@@ -10,6 +12,8 @@
     font-weight: <weight>;
     font-style: normal;
 }
+/* Esto es para que todos los textos tengan la fuente Rubik */ 
+
 
 #ini {
     width: 100%;
@@ -18,20 +22,28 @@
     padding-bottom: 150px;
 }
 
+/* Esto de aqui es para que las fotos del inicio para acceder a los iniciales esten en horizontal */
+
+
 .les {
     display: block;
     width: 33%;
     text-align: center;
 }
 
+/*Esto de aqui es para que las imagenes y el texto correspondiente esten en vertilac y ocupen cierto espacio del contenedor anterior */
+
 .ciales{
     width: 100%;
     height: 300px;
 }
+/* Esto es para que las imágenes tengan el mismo tamaño */ 
 
 #a ,#f ,#p {
     width: 50%;
 }
+
+/* Esto es para lo mismo que la anterior, pero más adelante se veran las diferencias */
 
 #llama {
     background-color: white;
@@ -39,50 +51,63 @@
     font-size: 30px;
 }
 
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
+
 #gota {
     background-color: white;
     color: rgb(0, 47, 255) ;
     font-size: 30px;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 #hoja {
     background-color: white;
     color: rgb(15, 112, 5);
     font-size: 30px;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 
 #a{
     background-color: aqua ;
 }
+/* Esto es para que el texto se vea del siguiente color */
 
 #f{
     background-color: orangered ;
 }
+/* Esto es para que el texto se vea del siguiente color */
 
 #p{
     background-color: greenyellow;
 }
+/* Esto es para que el texto se vea del siguiente color */
+
 #pok {
     background-color: rgb(75, 52, 52);
 }
+/* Esto es una propiedad que no tiene uso ya que supuestamente era el color de fondo, pero como se cambió a una imagen no sirve */
 
 #sec1 {
     width: 100%;
     display: flex;
 }
+/* Esto es para que la sección 1 ocupe todo el espacio y todo su contenido sea en horizontal */
 
 #art1{
     width: 25%;
 }
+/* Este es el artículo donde estará la foto */
 
 #art2 {
     width: 75%;
 }
+/* Este es el articulo donde estara la imagen */
 
 .art3 {
     display: block;
 }
+/* Este es el articulo donde estaran las debilidades */
 
 .fuego {
     color: white;
@@ -91,20 +116,24 @@
     font-size: 25px;
     margin-left: 30px;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .text {
     font-size: 20px;
     margin-left: 30px;
 }
+/* Esto es para que los textos de la información se vean de los siguientes tamaños */
 
 .fon {
 background-image: url(../img/fondo.jpg);
 }
+/* Esta es laimagen de fondo cuando accedes a los pokémons */
 
 .deb {
     font-size: 25px;
     margin-left: 30px;
 }
+/* Esto es para que las debilidades tengan un espacio de separación desde la parte izquierda y tengan un tamaño igual */
 
 .water {
     font-size: 25px;
@@ -112,6 +141,7 @@ background-image: url(../img/fondo.jpg);
     margin-left: 30px;
     width: 7%;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .tierra {
     font-size: 25px;
@@ -119,6 +149,7 @@ background-image: url(../img/fondo.jpg);
     margin-left: 30px;
     width: 7%;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .rock {
     font-size: 25px;
@@ -126,35 +157,42 @@ background-image: url(../img/fondo.jpg);
     margin-left: 30px;
     width: 7%;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .debi {
     width: 100%;
     display: flex;
     text-align: center;
 }
+/* Esto es ppara que las debilidades esten puestas en horizontal */
 
 .evo {
     text-align: center;
 }
+/* Esto es para que el contenido se ubique en el centro */
 
 .luciones {
     width: 33%;
     background-color: gray;
     border-radius: 20%;
 }
+/* Esto es para que las imágenes tengan un borde redondeado de un color */
 
 .medio {
     text-align: center;
 }
+/* Esto es para que el contenido se ubique en el centro */
 
 .volver {
     text-align: center;
 }
+/* Esto es para que el contenido se ubique en el centro */
 
 .vol {
     font-size: 25px;
     color: red;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .wing {
     background-color: rgb(147, 228, 208);
@@ -162,6 +200,7 @@ background-image: url(../img/fondo.jpg);
     font-size: 25px;
     margin-left: 30px;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .zap {
     font-size: 25px;
@@ -169,6 +208,7 @@ background-image: url(../img/fondo.jpg);
     margin-left: 30px;
     width: 10%;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .plant {
     font-size: 25px;
@@ -176,6 +216,7 @@ background-image: url(../img/fondo.jpg);
     margin-left: 30px;
     width: 8%;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .fight {
     font-size: 25px;
@@ -183,6 +224,7 @@ background-image: url(../img/fondo.jpg);
     margin-left: 30px;
     width: 8%;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .sine {
     font-size: 25px;
@@ -191,6 +233,7 @@ background-image: url(../img/fondo.jpg);
     width: 11%;
     color: white;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .bicho {
     font-size: 25px;
@@ -199,6 +242,7 @@ background-image: url(../img/fondo.jpg);
     width: 8%;
     color: white;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .hada {
     font-size: 25px;
@@ -206,10 +250,12 @@ background-image: url(../img/fondo.jpg);
     margin-left: 30px;
     width: 8%;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .type {
     display: flex;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .venom {
     background-color: rgb(207, 115, 232);
@@ -217,6 +263,7 @@ background-image: url(../img/fondo.jpg);
     font-size: 25px;
     margin-left: 30px;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 .cold {
     font-size: 25px;
@@ -224,12 +271,14 @@ background-image: url(../img/fondo.jpg);
     margin-left: 30px;
     width: 8%;
 }
+/* Esto es para que el texto se vea de los siguientes colores y tamaños */
 
 @media screen and (max-width:1200px ){
 
     .cold, .venom, .hada, .bicho, .sine, .fight, .plant , .zap ,.wing , .water, .tierra , .rock , .fuego {
         width: 15%;
     }
+    /* Esto es para que el borde de los tipos ocupe el texto */
 }
 
 @media screen and (max-width:800px ){
@@ -237,11 +286,13 @@ background-image: url(../img/fondo.jpg);
     .cold, .venom, .hada, .bicho, .sine, .fight, .plant , .zap ,.wing , .water, .tierra , .rock , .fuego {
         width: 30%;
     }
+     /* Esto es para que el borde de los tipos ocupe el texto */
 
     .debi {
         width: 100%;
         display: block;
     }
+     /* Esto es para que las debilidades sean en vertical */
 
     #art1{
         width: 50%;
@@ -270,6 +321,7 @@ background-image: url(../img/fondo.jpg);
     .cold, .venom, .hada, .bicho, .fight, .plant , .zap , .sine, .wing, .water, .tierra , .rock , .fuego {
         width: 50%;
     }
+    /* Esto es para que el borde de los tipos ocupe el texto */
 
     .text {
         font-size: 15px;
@@ -295,3 +347,5 @@ background-image: url(../img/fondo.jpg);
         font-size: 15px;
     }
 }
+
+/*  Esto de aqui son media queries para que cuando la pantalla sea mas pequeña, no se vea mal y pueda ajustarse lo mejor posible para que se vea mejor.*/
