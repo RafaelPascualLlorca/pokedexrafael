@@ -14,6 +14,11 @@
 }
 /* Esto es para que todos los textos tengan la fuente Rubik */ 
 
+#enlace {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
 
 #ini {
     width: 100%;
